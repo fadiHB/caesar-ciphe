@@ -46,34 +46,10 @@ if __name__ == "__main__":
     # all_letters =list(map(chr, range(97, 123)))
     # st = ''.join(all_letters)
 
-    encrypted = encrypt('I am eating banana',7)
+    encrypted = encrypt('I love python',7)
     print(encrypted)
 
     print(find_key(encrypted))
 
-    decrypted = decrypt(encrypted,2)
+    decrypted = decrypt(encrypted,7)
     print(decrypted)
-
-
-    # print(english_words)
-    
-
-    # for i in range(3):
-    #     print(i)
-
-    # dic = {}
-    # dic['key'] = 'value'
-    # print(dic)
-
-
-  
-    # print(ord('a'))
-    # print(ord('A'))
-    # print(1%26)
-
-
-    # print('*'*30)
-    # print('} = ' ,ord('}'))
-    # print('{ = ' ,ord('{'))
-    # print('*'*30)
-    # # print(20%1)
